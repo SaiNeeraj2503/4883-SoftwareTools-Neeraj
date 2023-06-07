@@ -1,0 +1,36 @@
+digraph G {
+    
+    node [shape=record,color=green];
+
+A [label="<back>|<data> 1|<next>"]
+B [label="<back> |<data> 2 |<next>"];
+C [label="<back> |<data> 3 |<next>"];
+D [label="<back> |<data> 4 |<next>"];
+E [label="<back> |<data> 5 |<next>"];
+F [label="<back> |<data> 6 |<next>"];
+G [label="<back> |<data> 7 |<next>"];
+n1[label="null",shape=circle]
+n2[label="null",shape=circle]
+n3[label="null",shape=circle]
+n4[label="null",shape=circle]
+n5[label="null",shape=circle]
+n6[label="null",shape=circle]
+n7[label="null",shape=circle]
+n8[label="null",shape=circle]
+        
+  A:back:data->B:data[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  A:next:data->C:data[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  B:back:data->D:data[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  B:next:data->E:data[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  C:back:data->F:data[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  C:next:data->G:data[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  D:next:data->n1[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  D:back:data->n2[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  E:next:data->n3[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  E:back:data->n4[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  F:next:data->n5[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  F:back:data->n6[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  G:next:data->n7[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+  G:back:data->n8[arrowhead=vee, arrowtail=dot, color=black, dir=both, tailclip=false];
+
+}
