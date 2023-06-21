@@ -54,4 +54,13 @@ python main.py
 
 # Output
 ## Case-1 : Daily Observations
+![alt](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A07/Output/Daily_Data%20Entry%20console.png)
+![alt](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A07/Output/Daily_Weather%20data%20Output.png)
+## Case-2 : Monthly Observations
+![alt](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A07/Output/Monthly_Data%20Entry.png)
+![alt](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A07/Output/Montly_Weather%20data%20output.png)
+## Case-3 : Weekly Observations
+![alt](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A07/Output/Weekly_Data%20Entry.png)
+![alt](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A07/Output/Weekly_Weather%20data%20output.png)
+
 <img src=""/>
