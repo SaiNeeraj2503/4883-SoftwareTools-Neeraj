@@ -63,4 +63,3 @@ python main.py
 ![alt](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A07/Output/Weekly_Data%20Entry.png)
 ![alt](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A07/Output/Weekly_Weather%20data%20output.png)
 
-<img src=""/>
