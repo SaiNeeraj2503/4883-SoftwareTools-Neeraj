@@ -14,7 +14,7 @@ def readAirportCodes():
     return airport_codes
 
 def buildWeatherURL(month=None, day=None, year=None, Code=None, filter=None):
-    #current_date = datetime.now().date()
+   
 
     if not month:
         month = 1
