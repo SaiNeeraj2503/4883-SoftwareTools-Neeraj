@@ -1,17 +1,42 @@
-## Name: Chandragiri Sai Neeraj
+# A05: Family Tree generation using Graphviz.
 
-## Description:
-The aim is create a family tree with 7 generations in graphviz using python.
+## Sai Neeraj Chandragiri
 
-## Design Pattern:
-All the Female has Red Font and All the Female has black Font.
+### Description:
+Create a dot file using python. Used a CSV file to read the family data. The dot file generated will help in generating the family tree. Also, divided the the family on clan bases.
+
+### Files
+
+|   #   | File |  Description |
+| :---: | ----------- | ---------------------- |
+|    01  |  [family_data.csv](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/data.csv)| CSV input data|  
+|    02  |  [family_tree.dot](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/family_tree.dot)|dot file generated from pyhton code| 
+|    03 |  [family_tree.png](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/graphviz.png)| Output of grahviz code| 
+|    04 |  [main.py](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/main.py)| python file to create dot file| 
+
+
+
+### Design Patterns:
+The differentation of gender is based on the font color used.
+All the Female have Red Font and All the Female have black Font.
 Record shape is given to all the nodes.
 The child is given blue and the spouse a green font.
-All the 
 
-## Process:
-Get the family tree data from online website and saved it in a csv file. Then, a python code is written so it generates a dot file, which when run on the graphviz, gives a proper family tree.
 
-## Resources:
-https://graphviz.org/
-https://www.python.org/
+### Requirements:
+1. Python
+2. Graphviz
+
+### Usage: 
+In the first step created the csv random data. After generating the file, created a python script which will help in generating the dot. copied the dot file code and used graphviz to visualise the family tree.
+
+### Output Image:
+![image](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/assets/81518238/6067f9aa-292d-48f1-aa7a-7a5cd8058c77)
+
+
+![image](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/assets/81518238/d7874a14-b9ab-4619-9c1c-a7f397d2e11c)
+
+
+## Resources: 
+1. https://graphviz.org/
+2. https://www.python.org/
