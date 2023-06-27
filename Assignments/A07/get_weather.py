@@ -9,13 +9,10 @@ import requests
 import PySimpleGUI as sg
 import numpy as np
 
-import gui# needed for the sleep function
+import gui# needed for importing data from gui
 
-from bs4 import BeautifulSoup                           # used to parse the HTML
-                         # used to render the web page
-#from seleniumwire import webdriver                      
-   # Service is only needed for ChromeDriverManager
-# selenium 4
+from bs4 import BeautifulSoup                          
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -35,13 +32,12 @@ def asyncGetWeather(url):
         https://stackoverflow.com/questions/76444501/typeerror-init-got-multiple-values-for-argument-options/76444544
         """
         
-        #change '/usr/local/bin/chromedriver' to the path of your chromedriver executable
-        #service = Service(executable_path='/usr/local/bin/chromedriver')
+        
         options = webdriver.ChromeOptions()
         options.add_argument('--headless') 
         options.add_argument('--log-level=3')
         
-        #driver = webdriver.Chrome(service=service,options=options)  # run ChromeDriver
+        
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()),options=options)
         flushprint("Getting page...")
         driver.get(url)                                             # load the web page from the URL
