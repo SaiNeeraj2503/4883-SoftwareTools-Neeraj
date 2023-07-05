@@ -305,7 +305,7 @@ async def cases(
     #### Response 2:
 
         {
-            "total_cases": 42,
+            "total_cases": 159664,
             "success": true,
             "params": {
                 "country": null,
