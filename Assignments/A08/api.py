@@ -269,7 +269,7 @@ async def deaths(
 async def cases(
     country: str = Query(None, title="Country"),
     region: str = Query(None, title="Region"),
-    year: int = Query(None, title="Year"),
+    year: str = Query(None, title="Year"),
 ):
     """
     Calculates the total deaths based on the provided filters (country, region, year).
