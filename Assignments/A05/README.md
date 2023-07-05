@@ -9,10 +9,10 @@ Create a dot file using python. Used a CSV file to read the family data. The dot
 
 |   #   | File |  Description |
 | :---: | ----------- | ---------------------- |
-|    01  |  [family_data.csv](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/data.csv)| CSV input data|  
+|    01  |  [family_data.csv](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/family_tree_data.csv)| CSV input data|  
 |    02  |  [family_tree.dot](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/family_tree.dot)|dot file generated from pyhton code| 
-|    03 |  [family_tree.png](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/graphviz.png)| Output of grahviz code| 
-|    04 |  [main.py](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/main.py)| python file to create dot file| 
+|    03 |  [family_tree.png](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/family_tree.png)| Output of grahviz code| 
+|    04 |  [family_tree.py](https://github.com/SaiNeeraj2503/4883-SoftwareTools-Neeraj/blob/main/Assignments/A05/family_tree.py)| python file to create dot file| 
 
 
 
